@@ -337,7 +337,6 @@ body.active { overflow: hidden; }
 /*-----------------------------------*\
  * #HEADER
 \*-----------------------------------*/
-
 .header {
   padding-block: 15px;
   position: fixed;
@@ -370,27 +369,24 @@ body.active { overflow: hidden; }
 .logo a {
   color: var(--color-primary);
   font-family: var(--ff-saira-stencil-one);
-  margin-left: -135px;
-  margin-top: -7px;
 }
 
 .logo span {
   display: inline-block;
   color: var(--raw-seinna);
-  margin-left:-8px;
+  margin-left: 2px;
 }
 
 .navbar-actions {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 15px;
   margin-left: auto;
 }
 
 .navbar-actions select {
   color: var(--color-primary);
   width: 45px;
-  
 }
 
 .navbar-actions option {
@@ -510,6 +506,7 @@ body.active { overflow: hidden; }
 }
 
 .navbar-link:is(:hover, :focus)::before { width: 100%; }
+
 
 
 
