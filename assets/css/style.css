@@ -476,6 +476,10 @@ body.active { overflow: hidden; }
   overflow: hidden;
 }
 
+.navbar-list{
+  margin-left: -89px;
+}
+
 .navbar-link {
   position: relative;
   width: max-content;
